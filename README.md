@@ -8,7 +8,7 @@ thiago.traue@uni9.pro.br
 
 ## Preparação do ambiente de desenvolvimento
 
-Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK]()
+Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1QrsLW2Vd13ypImXoWN7ZZZ3X--5SZuTSWzJFUaL8WHg/edit?usp=sharing)
 
 
 ## Atividades
