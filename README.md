@@ -4,6 +4,9 @@ Prof. Thiago G. Traue
 
 thiago.traue@uni9.pro.br
 
+Classroom da disciplina: [NESTE LINK](https://classroom.google.com/c/NDY1OTgyNTQ3NzU5?cjc=qqw4v7j)
+
+
 ---
 
 ## Preparação do ambiente de desenvolvimento
