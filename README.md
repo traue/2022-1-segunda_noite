@@ -1,4 +1,4 @@
-# Aplicações Web
+# Programação Avançada em Orientação a Objetos
 
 Prof. Thiago G. Traue
 
