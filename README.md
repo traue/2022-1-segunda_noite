@@ -16,7 +16,7 @@ Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NEST
 
 ## Atividades
 
-Essa disciplina ainda não demanda atividades.
+Todas as atividades serão disponibilizadas através do Classroom da disciplina (link acima, no cabeçalho deste git)
 
 
 
