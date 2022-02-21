@@ -13,10 +13,10 @@ public class Principal {
         p.sexo = 'M';
         p.email = "thiago.traue@uni9.pro.br";
         
-        System.out.println("O " + p.nome + " tem " + p.idade + " anos");
+        System.out.println("O(a) " + p.nome + " tem " + p.idade + " anos");
         
         p.fazerAniversario();
         
-        System.out.println("O " + p.nome + " agora tem " + p.idade + " anos");
+        System.out.println("O(a) " + p.nome + " agora tem " + p.idade + " anos");
     }
 }

@@ -16,6 +16,5 @@ public class Pessoa {
     void fazerAniversario() {
         idade++; //idade = idade + 1;
         System.out.println("Ôba festinha. Quero bolo!");
-        //System.out.println("Agora " + nome + " tem " + idade + " anos!");
     }
 }
