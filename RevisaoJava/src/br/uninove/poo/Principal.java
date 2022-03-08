@@ -33,5 +33,17 @@ public class Principal {
         System.out.println("O(a) " + p.getNome() + " agora tem " + p.getIdade() + " anos");
         
         Pessoa p2 = new Pessoa("Thiago", "123412121", "thiago.tr.@ojk", 'M', 34);
+        
+        Aluno a1 = new Aluno();
+        
+        a1.setNome("Roberth");
+        a1.setIdade(20);
+        a1.setEmail("roro@uni9.edu.br");
+        a1.setCurso("Sistemas de Informação");
+        a1.setRa(123123);
+        
+        Aluno a2 = new Aluno("Fulano", "12312", "bla@bla.com", 'R', 
+                19, 123123, "TADS");
+      
     }
 }

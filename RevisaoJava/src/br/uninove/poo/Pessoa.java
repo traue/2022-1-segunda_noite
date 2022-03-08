@@ -8,8 +8,8 @@ public class Pessoa {
     private String email;
     private char sexo;
     private int idade;
-    
-             //Assinatura deste método: String, string, string, char, int
+
+    //Assinatura deste método: String, string, string, char, int
     public Pessoa(String nome, String cpf, String email, char sexo, int idade) {
         setNome(nome);
         setCpf(cpf);
@@ -17,9 +17,10 @@ public class Pessoa {
         setSexo(sexo);
         setIdade(idade);
     }
-    
+
     //subrecarga do método construtor:
-    public Pessoa() { }
+    public Pessoa() {
+    }
 
     public String getNome() {
         return nome;
@@ -74,6 +75,6 @@ public class Pessoa {
         setIdade(getIdade() + 1); //idade = idade + 1;
         System.out.println("Ôba festinha. Quero bolo!");
     }
-    
+
     //falta criarmos objetos derivados de pessoa.
 }
