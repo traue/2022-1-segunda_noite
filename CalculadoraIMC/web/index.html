@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Calculadora IMC</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>Calculadora IMC</h1>
+        <hr>
+        <br>
+        <br>
+        <form method="post" action="resultado.jsp">
+            <label>Infome seu peso: </label>
+            <input type="number" name="peso" required>
+
+            <br><br>
+
+            <label>Infome sua altura: </label>
+            <input type="number" step="0.01" name="altura" required>
+            
+            <br><br>
+            
+            <input type="submit" value="Calcular IMC">
+        </form>
     </body>
 </html>
-
-<!--Paramos aqui, apenas criamos o projeto-->
