@@ -22,9 +22,12 @@
         <h1>Calculadora IMC - Resultados</h1>
         <hr>
         <ul>
-            <li><b>Peso informado: </b><%= peso%></li>
-            <li><b>Altura informada: </b><%= altura%></li>
-            <li><b>IMC </b><%= resultado%></li>
+            <li><b>Peso informado: </b><%= String.format("%.2f", peso) %></li>
+            <li><b>Altura informada: </b><%= String.format("%.2f", altura) %></li>
+            <li><b>IMC </b><%= String.format("%.2f", resultado) %></li>
+            <li><b>Classificação: </b><%=imc.classificaIMC(resultado)%></li>
         </ul>
+        <br>
+        <a href="./">Calcular novamente</a>
     </body>
 </html>
