@@ -4,8 +4,7 @@ Prof. Thiago G. Traue
 
 thiago.traue@uni9.pro.br
 
-Classroom da disciplina: [NESTE LINK](https://classroom.google.com/c/NDY1OTgyNTQ3NzU5?cjc=qqw4v7j)
-
+CLASSROOM DA DISCIPLINA: [NESTE LINK](https://classroom.google.com/c/NDY1OTgyNTQ3NzU5?cjc=qqw4v7j)
 
 ---
 
@@ -13,12 +12,13 @@ Classroom da disciplina: [NESTE LINK](https://classroom.google.com/c/NDY1OTgyNTQ
 
 Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1QrsLW2Vd13ypImXoWN7ZZZ3X--5SZuTSWzJFUaL8WHg/edit?usp=sharing)
 
-
 ## Atividades
 
-Todas as atividades serão disponibilizadas através do Classroom da disciplina (link acima, no cabeçalho deste git)
+Todas as atividades serão disponibilizadas através do **Classroom** da disciplina (link acima, no cabeçalho deste git). É preciso utilizar o e-mail institucional para acessar
 
+Atividades da disciplina:
 
+- Atividade 1: De 28.03 até 18.04 - Liberada e em andamento
 
 ## Critérios de Avaliação
 
