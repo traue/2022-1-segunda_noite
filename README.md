@@ -19,6 +19,7 @@ Todas as atividades serão disponibilizadas através do **Classroom** da discipl
 Atividades da disciplina:
 
 - **Atividade 1**: De 28.03 até 18.04, 19h - Liberada e em andamento
+- **Atividade 2**: De 11.04 até 02.05, 19h - Liberada e em andamento
 
 ## Critérios de Avaliação
 
