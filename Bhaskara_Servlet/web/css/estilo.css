@@ -1,0 +1,41 @@
+body {
+    font-family: "Luminari", fantasy;
+    background-color: rgb(34,39,44);
+    color: white;
+}
+
+.equacao {
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.principal {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+input[type="number"] {
+    width: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    font-size: 24px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(54,62,71);
+    color: white;
+    font-size: 20px;
+    font-family: "Luminari", fantasy;;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(97,111,126);
+}
