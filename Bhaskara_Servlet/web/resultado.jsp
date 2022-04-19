@@ -3,14 +3,14 @@
     double delta = 0;
 
     if ((request.getParameter("delta") != null))  {
-        delta = Double.parseDouble(request.getParameter("delta"));
+        delta = Double.parseDouble(request.getAttribute("delta").toString());
     }
     double x1 = 0;
     double x2 = 0;
     
     if(delta < 0) {
-        x1 = Double.parseDouble(request.getParameter("x1"));
-        x2 = Double.parseDouble(request.getParameter("x2"));
+        x1 = Double.parseDouble(request.getAttribute("x1").toString());
+        x2 = Double.parseDouble(request.getAttribute("x2").toString());
     }
     
 //paramos aqui.. precisa corrigir o erro... :P
