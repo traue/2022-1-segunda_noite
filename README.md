@@ -27,6 +27,6 @@ Atividades da disciplina:
 
 Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre. 
 
-Teremos entre 4 e 6 atividades, todas de múltipla escolha e com prazo de ao menos 15 dias para realização.
+Teremos entre 4 e 6 atividades, todas de múltipla escolha ou dissertativa (ao menos uma) e com prazo de ao menos 15 dias para realização.
 
 A média desta disciplina é calculada simplesmente pela média das atividades.
