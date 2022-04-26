@@ -14,32 +14,31 @@ public class BhaskaraController extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try ( PrintWriter out = response.getWriter()) {
-            
+
             int a = Integer.parseInt(request.getParameter("valorA"));
             int b = Integer.parseInt(request.getParameter("valorB"));
             int c = Integer.parseInt(request.getParameter("valorC"));
             double delta;
-            
+            String params;
+
             Bhaskara bhaskara = new Bhaskara();
-            
+
             bhaskara.setA(a);
             bhaskara.setB(b);
             bhaskara.setC(c);
-            
-            bhaskara.calculaDelta();
-            bhaskara.calculaRaizes();
-                       
-            request.setAttribute("valorA", String.valueOf(a));
-            request.setAttribute("valorB", String.valueOf(b));
-            request.setAttribute("valorC", String.valueOf(c));
-            
-            request.setAttribute("delta", String.valueOf(bhaskara.getDelta()));
-            request.setAttribute("x1", String.valueOf(bhaskara.getxP()));
-            request.setAttribute("x2", String.valueOf(bhaskara.getxN()));
-            
-            request.getRequestDispatcher("resultado.jsp").forward(request, response);
 
+            delta = bhaskara.calculaDelta();
 
+            params = String.format("a=%s&b=%s&c=%s&delta=%s", a, b, c, delta);
+
+            if (delta > 0) {
+                bhaskara.calculaRaizes();
+                params += String.format("&rP=%s&rN=%s",
+                        bhaskara.getxP(),
+                        bhaskara.getxN());
+            }
+            
+            response.sendRedirect("resultado.jsp?" + params);
         }
     }
 

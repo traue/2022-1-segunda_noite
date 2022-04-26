@@ -1,19 +1,19 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>\
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%
-    double delta = 0;
+    String a, b, c, delta, rP, rN;
+    boolean temRaizes = false;
+    a = request.getParameter("a");
+    b = request.getParameter("b");
+    c = request.getParameter("c");
+    delta = request.getParameter("delta");
+    rP = rN = "";
 
-    if ((request.getParameter("delta") != null))  {
-        delta = Double.parseDouble(request.getAttribute("delta").toString());
+    if (request.getParameter("rP") != null) {
+        temRaizes = true;
+        rP = request.getParameter("rP");
+        rN = request.getParameter("rN");
     }
-    double x1 = 0;
-    double x2 = 0;
-    
-    if(delta < 0) {
-        x1 = Double.parseDouble(request.getAttribute("x1").toString());
-        x2 = Double.parseDouble(request.getAttribute("x2").toString());
-    }
-    
-//paramos aqui.. precisa corrigir o erro... :P
+
 %>
 <!DOCTYPE html>
 <html>
@@ -27,17 +27,18 @@
         <hr>
 
         <div class="corpo">
-            <p class="equacao">Dada a equação ${valorA}X² + ${valorB}x + ${valorC} = 0, temos: </p>
+            <p class="equacao">Dada a equação <%=a%>X² + <%=b%>x + <%=c%> = 0, temos: </p>
             <ul>
                 <li>Delta = <%=delta%></li>
-                    <% if (delta < 0) { %>
-                <li>Não há raízes pois delta é menor que 0!</li>
-                    <% } else {%>
-
-                <li>X' = <%= x1%></li>
-                <li>X" = <%= x2%></li>
-                    <% }%>
+                <% if (temRaizes) {%>
+                    <li>X' = <%=rP%></li>
+                    <li>X" = <%=rN%></li>
+                <% } else { %>
+                    <li>Não há raízes pois delta é menor que 0!</li>
+                <% }%>
             </ul>
+            <br>
+            <a href="./">Calcular novamente...</a>
         </div>
     </body>
 </html>
