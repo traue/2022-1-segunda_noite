@@ -20,12 +20,12 @@ Atividades da disciplina:
 
 - **Atividade 1**: De 28.03 até 18.04, 19h - Encerrada
 - **Atividade 2**: De 11.04 até 02.05, 19h - Encerrada
-- **Atividade 3**: De 18.04 até 09.05, 19h - Liberada e em andamento
+- **Atividade 3**: De 18.04 até 09.05, 19h - Encerrada
 - **Atividade 4**: De 25.04 até 23.05, 19h - Liberada e em andamento
 
 ## Critérios de Avaliação
 
-Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre. 
+Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre.
 
 Teremos entre 4 e 6 atividades, todas de múltipla escolha ou dissertativa (ao menos uma) e com prazo de ao menos 15 dias para realização.
 
