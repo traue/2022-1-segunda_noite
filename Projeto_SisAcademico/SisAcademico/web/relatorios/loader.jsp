@@ -12,14 +12,13 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 const pagina = urlParams.get('pagina');
                 
-                if(pagina == 'alunos') {
-                    //carrega usando o servlet de aluno...
-                    console.log("vou carregar os alunos...");
+                if(pagina === 'alunos') {
+                    var url = '../AlunoController?acao=LEITURA';
                 } else {
-                    //carrega usando o servlet de curso...
-                    console.log("vou carregar os cursos...");
+                    var url = '../CursoController?acao=LEITURA';
                 }
-                //paramos aqui
+                
+                $(location).attr('href', url);
             });
         </script>
         
