@@ -24,6 +24,8 @@ Atividades da disciplina:
 - **Atividade 4**: De 25.04 até 23.05, 19h - Encerrada
 - **Atividade 5**: De 16.06 até 06.06, 19h - Em andamento
 
+**AULA COM ATIVIDADES DE RECUPERAÇÃO:** 13.06
+
 ## Critérios de Avaliação
 
 Este professor não utiliza nenhuma prova para realizar a avaliação da turma, apenas atividades disponibilizadas durante o semestre.
