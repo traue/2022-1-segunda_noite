@@ -25,6 +25,8 @@ Atividades da disciplina:
 - **Atividade 5**: De 16.06 até 06.06, 19h - Em andamento
 - **Atividade Final**: De 23.05 até 13.06, 19h - Em andamento
 
+- **Prova:** 30.05, em aula (via classroom)
+
 **AULA COM ATIVIDADES DE RECUPERAÇÃO:** Cancelada
 
 ## Critérios de Avaliação
