@@ -12,7 +12,7 @@ thiago.traue@uni9.pro.br
 
 Para preparar o ambiente de desenvolvimento, você pode seguir o documento [NESTE LINK](https://docs.google.com/document/d/1QrsLW2Vd13ypImXoWN7ZZZ3X--5SZuTSWzJFUaL8WHg/edit?usp=sharing)
 
-## Atividades
+## Atividades e provas
 
 Todas as atividades serão disponibilizadas através do **Classroom** da disciplina (link acima, no cabeçalho deste git). É preciso utilizar o e-mail institucional para acessar
 
