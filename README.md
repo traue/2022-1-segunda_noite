@@ -23,7 +23,7 @@ Atividades da disciplina:
 - **Atividade 3**: De 18.04 até 09.05, 19h - Encerrada
 - **Atividade 4**: De 25.04 até 23.05, 19h - Encerrada
 - **Atividade 5**: De 16.06 até 06.06, 19h - Encerrada
-- **Atividade Final**: De 23.05 até 13.06, 19h - Em andamento
+- **Atividade Final**: De 23.05 até 13.06, 19h - Encerrada
 
 **Prova:** 30.05, em aula (via classroom)
 
