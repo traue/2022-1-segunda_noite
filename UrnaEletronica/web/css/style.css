@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(225, 214, 255);
+}
+
+.formLogin {
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 120px;
+    border: 1px blue dotted;
+    padding: 10px;
+}
+
+.erroLogin {
+    margin: 0 auto;
+    color: red;
+    padding: 5px;
+}
+
+.painel {
+    background: white;
+    margin: 0 auto;
+    width: 90%
+}
